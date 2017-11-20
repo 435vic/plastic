@@ -92,7 +92,7 @@
         "punctuation.definition.tag",
         "punctuation.section",
         "punctuation.separator",
-        "punctuation.support",
+        // "punctuation.support",
         "punctuation.terminator"
       ],
       "settings": {
@@ -101,7 +101,7 @@
     },
     {
       "name": "Iron",
-      "scope": ["support.type.property-name", "support.variable", "variable"],
+      "scope": ["support.variable", "variable"],
       "settings": {
         "foreground": "#D2D6db"
       }
@@ -113,7 +113,10 @@
         "storage.type",
         "support.constant",
         "support.type",
-        "support.class"
+        "support.class",
+        "string.quoted.double.json",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
       ],
       "settings": {
         "foreground": "#61afef"
@@ -135,7 +138,7 @@
     },
     {
       "name": "Olivine",
-      "scope": ["string", "markup.quote", "markup.bold", "markup.italic"],
+      "scope": ["string", "markup.quote", "markup.bold", "markup.italic", "punctuation.definition.string"],
       "settings": {
         "foreground": "#98c379"
       }
@@ -168,10 +171,11 @@
         "entity.name.section",
         "keyword",
         "punctuation.definition.heading",
-        "punctuation.definition.keyword"
+        "punctuation.definition.keyword",
+        "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#e02011"
       }
     },
     {
@@ -184,7 +188,7 @@
     {
       "name": "Italic",
       "scope": [
-        "comment",
+        //"comment",
         "markup.italic.markdown",
         "punctuation.definition.italic.markdown"
       ],
